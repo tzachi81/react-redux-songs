@@ -1,5 +1,6 @@
 import React from 'react';
 import SongList from '../components/SongList';
+import SongDetails from '../components/SongDetails';
 
 const App = (() => {
     return (
@@ -8,6 +9,9 @@ const App = (() => {
                 <div className="column eight row">
                     <SongList />
                 </div>
+            </div>
+            <div className="column eight wide">
+                <SongDetails />
             </div>
         </div>
     )
