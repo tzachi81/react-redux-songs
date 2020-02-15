@@ -2,9 +2,24 @@ import { combineReducers } from "redux";
 
 const songsReducer = () => {
     return [
-        {title: 'song1', duration: '04:05'},
-        {title: 'song2', duration: '04:32'},
-        {title: 'song3', duration: '03:05'},
+        {
+            id: 1,
+            title: 'Curl of the Burl',
+            artist: 'Mastodon',
+            duration: '04:05'
+          },
+          {
+            id: 2,
+            title: 'Oblivion',
+            artist: 'Mastodon',
+            duration: '06:15'
+          },
+          {
+            id: 3,
+            title: 'Flying Whales',
+            artist: 'Gojira',
+            duration: '03:25'
+          }
     ];
 };
 
