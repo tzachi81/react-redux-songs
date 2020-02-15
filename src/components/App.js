@@ -6,7 +6,8 @@ const App = (() => {
         <div className="ui container grid">
             <div className="ui row">
                 <div className="column eight row">
-                    <SongList /></div>
+                    <SongList />
+                </div>
             </div>
         </div>
     )
